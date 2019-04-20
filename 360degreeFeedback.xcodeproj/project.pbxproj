@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C44965EE784CBE92AE03BA /* Pods_360degreeFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9146F7553979D09CC43BA07 /* Pods_360degreeFeedback.framework */; };
 		E19894CB226AAD3400E72B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894CA226AAD3400E72B12 /* AppDelegate.swift */; };
 		E19894CD226AAD3400E72B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894CC226AAD3400E72B12 /* ViewController.swift */; };
 		E19894D0226AAD3400E72B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19894CE226AAD3400E72B12 /* Main.storyboard */; };
 		E19894D2226AAD3500E72B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19894D1226AAD3500E72B12 /* Assets.xcassets */; };
 		E19894D5226AAD3500E72B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19894D3226AAD3500E72B12 /* LaunchScreen.storyboard */; };
+		E19894E1226AB04A00E72B12 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894E0226AB04A00E72B12 /* APIConfiguration.swift */; };
+		E19894E3226AB10B00E72B12 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894E2226AB10B00E72B12 /* APIRouter.swift */; };
+		E19894E5226AB12700E72B12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894E4226AB12700E72B12 /* Constants.swift */; };
+		E19894E7226AB13200E72B12 /* Rest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894E6226AB13200E72B12 /* Rest.swift */; };
+		E19894E9226AB1EE00E72B12 /* TopicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894E8226AB1EE00E72B12 /* TopicList.swift */; };
+		E19894EB226AB1FF00E72B12 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894EA226AB1FF00E72B12 /* TopicCell.swift */; };
+		E19894ED226AB24600E72B12 /* RESTStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894EC226AB24600E72B12 /* RESTStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9146F7553979D09CC43BA07 /* Pods_360degreeFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_360degreeFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19894C7226AAD3400E72B12 /* 360degreeFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360degreeFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19894CA226AAD3400E72B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19894CC226AAD3400E72B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		E19894D1226AAD3500E72B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19894D4226AAD3500E72B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E19894D6226AAD3500E72B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19894E0226AB04A00E72B12 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		E19894E2226AB10B00E72B12 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		E19894E4226AB12700E72B12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E19894E6226AB13200E72B12 /* Rest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rest.swift; sourceTree = "<group>"; };
+		E19894E8226AB1EE00E72B12 /* TopicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicList.swift; sourceTree = "<group>"; };
+		E19894EA226AB1FF00E72B12 /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		E19894EC226AB24600E72B12 /* RESTStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTStructure.swift; sourceTree = "<group>"; };
+		E2738FF9090421E899F8AEE0 /* Pods-360degreeFeedback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360degreeFeedback.release.xcconfig"; path = "Pods/Target Support Files/Pods-360degreeFeedback/Pods-360degreeFeedback.release.xcconfig"; sourceTree = "<group>"; };
+		F431C4C8CB7AB5148CAD0A8A /* Pods-360degreeFeedback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360degreeFeedback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-360degreeFeedback/Pods-360degreeFeedback.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C44965EE784CBE92AE03BA /* Pods_360degreeFeedback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48B41BC27317A25D6FFC934C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F431C4C8CB7AB5148CAD0A8A /* Pods-360degreeFeedback.debug.xcconfig */,
+				E2738FF9090421E899F8AEE0 /* Pods-360degreeFeedback.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E19894BE226AAD3400E72B12 = {
 			isa = PBXGroup;
 			children = (
 				E19894C9226AAD3400E72B12 /* 360degreeFeedback */,
 				E19894C8226AAD3400E72B12 /* Products */,
+				48B41BC27317A25D6FFC934C /* Pods */,
+				E8EBC2298B8F291534B2DA93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,53 @@
 		E19894C9226AAD3400E72B12 /* 360degreeFeedback */ = {
 			isa = PBXGroup;
 			children = (
+				E19894DF226AB00F00E72B12 /* servises */,
+				E19894DE226AB00600E72B12 /* controllers */,
+				E19894DD226AAFFB00E72B12 /* models */,
 				E19894CA226AAD3400E72B12 /* AppDelegate.swift */,
-				E19894CC226AAD3400E72B12 /* ViewController.swift */,
 				E19894CE226AAD3400E72B12 /* Main.storyboard */,
 				E19894D1226AAD3500E72B12 /* Assets.xcassets */,
 				E19894D3226AAD3500E72B12 /* LaunchScreen.storyboard */,
 				E19894D6226AAD3500E72B12 /* Info.plist */,
 			);
 			path = 360degreeFeedback;
+			sourceTree = "<group>";
+		};
+		E19894DD226AAFFB00E72B12 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E19894E8226AB1EE00E72B12 /* TopicList.swift */,
+				E19894EA226AB1FF00E72B12 /* TopicCell.swift */,
+				E19894EC226AB24600E72B12 /* RESTStructure.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E19894DE226AB00600E72B12 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E19894CC226AAD3400E72B12 /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		E19894DF226AB00F00E72B12 /* servises */ = {
+			isa = PBXGroup;
+			children = (
+				E19894E0226AB04A00E72B12 /* APIConfiguration.swift */,
+				E19894E2226AB10B00E72B12 /* APIRouter.swift */,
+				E19894E4226AB12700E72B12 /* Constants.swift */,
+				E19894E6226AB13200E72B12 /* Rest.swift */,
+			);
+			path = servises;
+			sourceTree = "<group>";
+		};
+		E8EBC2298B8F291534B2DA93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9146F7553979D09CC43BA07 /* Pods_360degreeFeedback.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E19894D9226AAD3500E72B12 /* Build configuration list for PBXNativeTarget "360degreeFeedback" */;
 			buildPhases = (
+				E052CCC404876E1DC78B9292 /* [CP] Check Pods Manifest.lock */,
 				E19894C3226AAD3400E72B12 /* Sources */,
 				E19894C4226AAD3400E72B12 /* Frameworks */,
 				E19894C5226AAD3400E72B12 /* Resources */,
+				C5290215E5E04162D6EEF917 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +201,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C5290215E5E04162D6EEF917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-360degreeFeedback/Pods-360degreeFeedback-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisedFuture/PromisedFuture.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromisedFuture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-360degreeFeedback/Pods-360degreeFeedback-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E052CCC404876E1DC78B9292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-360degreeFeedback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E19894C3226AAD3400E72B12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19894E5226AB12700E72B12 /* Constants.swift in Sources */,
+				E19894EB226AB1FF00E72B12 /* TopicCell.swift in Sources */,
+				E19894ED226AB24600E72B12 /* RESTStructure.swift in Sources */,
 				E19894CD226AAD3400E72B12 /* ViewController.swift in Sources */,
+				E19894E3226AB10B00E72B12 /* APIRouter.swift in Sources */,
+				E19894E7226AB13200E72B12 /* Rest.swift in Sources */,
+				E19894E9226AB1EE00E72B12 /* TopicList.swift in Sources */,
+				E19894E1226AB04A00E72B12 /* APIConfiguration.swift in Sources */,
 				E19894CB226AAD3400E72B12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +409,7 @@
 		};
 		E19894DA226AAD3500E72B12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F431C4C8CB7AB5148CAD0A8A /* Pods-360degreeFeedback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +428,7 @@
 		};
 		E19894DB226AAD3500E72B12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2738FF9090421E899F8AEE0 /* Pods-360degreeFeedback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
