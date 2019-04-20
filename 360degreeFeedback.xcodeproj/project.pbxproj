@@ -11,13 +11,7 @@
 		651E8639226ABB260027E303 /* RoomInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E8638226ABB260027E303 /* RoomInteractor.swift */; };
 		651E863B226ABC210027E303 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E863A226ABC210027E303 /* API.swift */; };
 		651E863D226ABC870027E303 /* RoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651E863C226ABC870027E303 /* RoomViewController.xib */; };
-		651E8640226AC1240027E303 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E863F226AC1240027E303 /* Room.swift */; };
-		651E8642226AC13E0027E303 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E8641226AC13E0027E303 /* User.swift */; };
-		651E8644226AC17E0027E303 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E8643226AC17E0027E303 /* Topic.swift */; };
-		651E8646226AC4040027E303 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E8645226AC4040027E303 /* BaseInteractor.swift */; };
 		A9C44965EE784CBE92AE03BA /* Pods_360degreeFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9146F7553979D09CC43BA07 /* Pods_360degreeFeedback.framework */; };
-		E101C30F226AC2A000280731 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101C30E226AC2A000280731 /* RegisterViewController.swift */; };
-		E101C312226AC2E300280731 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101C311226AC2E300280731 /* RegisterInteractor.swift */; };
 		E19894CB226AAD3400E72B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894CA226AAD3400E72B12 /* AppDelegate.swift */; };
 		E19894CD226AAD3400E72B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19894CC226AAD3400E72B12 /* ViewController.swift */; };
 		E19894D0226AAD3400E72B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19894CE226AAD3400E72B12 /* Main.storyboard */; };
@@ -31,14 +25,7 @@
 		651E8638226ABB260027E303 /* RoomInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomInteractor.swift; sourceTree = "<group>"; };
 		651E863A226ABC210027E303 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		651E863C226ABC870027E303 /* RoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomViewController.xib; sourceTree = "<group>"; };
-		651E863F226AC1240027E303 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
-		651E8641226AC13E0027E303 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		651E8643226AC17E0027E303 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
-		651E8645226AC4040027E303 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
 		C9146F7553979D09CC43BA07 /* Pods_360degreeFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_360degreeFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E101C30E226AC2A000280731 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		E101C310226AC2CC00280731 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = /Users/ayaalkaplin/Desktop/iOS/360degreeFeedback/360degreeFeedback/controllers/RegisterVC/RegisterViewController.xib; sourceTree = "<absolute>"; };
-		E101C311226AC2E300280731 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
 		E19894C7226AAD3400E72B12 /* 360degreeFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360degreeFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19894CA226AAD3400E72B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19894CC226AAD3400E72B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,25 +69,6 @@
 			path = RoomVC;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		E101C30D226AC28100280731 /* RegisterVC */ = {
-			isa = PBXGroup;
-			children = (
-				E101C30E226AC2A000280731 /* RegisterViewController.swift */,
-				E101C310226AC2CC00280731 /* RegisterViewController.xib */,
-				E101C311226AC2E300280731 /* RegisterInteractor.swift */,
-			);
-			path = RegisterVC;
-=======
-		651E8647226AC4250027E303 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				651E8645226AC4040027E303 /* BaseInteractor.swift */,
-			);
-			path = Base;
->>>>>>> b7a288e3a10cd055702175b411ddd2f5f258a9e5
-			sourceTree = "<group>";
-		};
 		E19894BE226AAD3400E72B12 = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +90,6 @@
 		E19894C9226AAD3400E72B12 /* 360degreeFeedback */ = {
 			isa = PBXGroup;
 			children = (
-				651E8647226AC4250027E303 /* Base */,
 				E19894DF226AB00F00E72B12 /* servises */,
 				E19894DE226AB00600E72B12 /* controllers */,
 				E19894DD226AAFFB00E72B12 /* models */,
@@ -138,9 +105,6 @@
 		E19894DD226AAFFB00E72B12 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				651E863F226AC1240027E303 /* Room.swift */,
-				651E8641226AC13E0027E303 /* User.swift */,
-				651E8643226AC17E0027E303 /* Topic.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -148,7 +112,6 @@
 		E19894DE226AB00600E72B12 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E101C30D226AC28100280731 /* RegisterVC */,
 				651E8635226ABAE40027E303 /* RoomVC */,
 				E19894CC226AAD3400E72B12 /* ViewController.swift */,
 			);
@@ -298,24 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19894E5226AB12700E72B12 /* Constants.swift in Sources */,
-<<<<<<< HEAD
-				E101C30F226AC2A000280731 /* RegisterViewController.swift in Sources */,
-				E19894EB226AB1FF00E72B12 /* TopicCell.swift in Sources */,
-				E19894ED226AB24600E72B12 /* RESTStructure.swift in Sources */,
-=======
-				651E8646226AC4040027E303 /* BaseInteractor.swift in Sources */,
-				651E8644226AC17E0027E303 /* Topic.swift in Sources */,
->>>>>>> b7a288e3a10cd055702175b411ddd2f5f258a9e5
 				651E8637226ABB070027E303 /* RoomViewController.swift in Sources */,
-				651E8640226AC1240027E303 /* Room.swift in Sources */,
 				E19894CD226AAD3400E72B12 /* ViewController.swift in Sources */,
-				651E8642226AC13E0027E303 /* User.swift in Sources */,
 				651E8639226ABB260027E303 /* RoomInteractor.swift in Sources */,
-<<<<<<< HEAD
-				E19894E9226AB1EE00E72B12 /* TopicList.swift in Sources */,
-				E101C312226AC2E300280731 /* RegisterInteractor.swift in Sources */,
-=======
->>>>>>> b7a288e3a10cd055702175b411ddd2f5f258a9e5
 				651E863B226ABC210027E303 /* API.swift in Sources */,
 				E19894CB226AAD3400E72B12 /* AppDelegate.swift in Sources */,
 			);
