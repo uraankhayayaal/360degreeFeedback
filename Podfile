@@ -7,7 +7,8 @@ target '360degreeFeedback' do
 
   # Pods for 360degreeFeedback
   
-  pod 'Alamofire', '~> 5.0.0-beta.3'
+  pod 'Indigear'
+  #pod 'Alamofire', '~> 5.0.0-beta.3'
   pod 'PromisedFuture'
   pod 'SDWebImage', '~> 4.0'
 
