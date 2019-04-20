@@ -1,5 +1,5 @@
 //
-//  API.swift
+//  BaseInteractor.swift
 //  360degreeFeedback
 //
 //  Created by Mister Gamburger on 20/04/2019.
@@ -8,12 +8,6 @@
 
 import Foundation
 
-class API {
-    
-    
-    func createRoom(){
-        
-    }
-    
-    
+protocol BaseInteractor : class {
+    func showMessage(_ message : String)
 }
