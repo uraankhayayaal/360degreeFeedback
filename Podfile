@@ -11,5 +11,6 @@ target '360degreeFeedback' do
   #pod 'Alamofire', '~> 5.0.0-beta.3'
   pod 'PromisedFuture'
   pod 'SDWebImage', '~> 4.0'
+  pod 'SwiftyJSON'
 
 end
