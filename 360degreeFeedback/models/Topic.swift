@@ -1,5 +1,5 @@
 //
-//  API.swift
+//  Topic.swift
 //  360degreeFeedback
 //
 //  Created by Mister Gamburger on 20/04/2019.
@@ -7,13 +7,3 @@
 //
 
 import Foundation
-
-class API {
-    
-    
-    func createRoom(){
-        
-    }
-    
-    
-}
