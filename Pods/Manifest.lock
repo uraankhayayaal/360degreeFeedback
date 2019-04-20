@@ -1,26 +1,26 @@
 PODS:
-  - Alamofire (5.0.0-beta.3)
+  - Indigear (0.0.1)
   - PromisedFuture (1.0.1)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.0.0-beta.3)
+  - Indigear
   - PromisedFuture
   - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Alamofire
+    - Indigear
     - PromisedFuture
     - SDWebImage
 
 SPEC CHECKSUMS:
-  Alamofire: 50d6fa7e8cbe7f84559e86ab641ffd029db655f8
+  Indigear: 2846ec74d50ca8b70e7403798f1bd39cbac6bafc
   PromisedFuture: 3f863d17c047c3474c85045b254bb1c94743ed0f
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
 
-PODFILE CHECKSUM: cbcfe353fa439db4b84199c60bc671a931d3fecb
+PODFILE CHECKSUM: 96266d294590016887885c43fd93656ceb0ad49f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
